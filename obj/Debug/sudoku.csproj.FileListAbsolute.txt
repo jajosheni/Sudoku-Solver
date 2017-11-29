@@ -1,0 +1,7 @@
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\bin\Debug\sudoku.exe.config
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\bin\Debug\sudoku.exe
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\bin\Debug\sudoku.pdb
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\obj\Debug\sudoku.csprojResolveAssemblyReference.cache
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\obj\Debug\sudoku.csproj.CoreCompileInputs.cache
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\obj\Debug\sudoku.exe
+C:\Users\AnonMonster\source\repos\sudoku\sudoku\obj\Debug\sudoku.pdb
