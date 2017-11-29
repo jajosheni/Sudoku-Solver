@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//! AUTHOR : SHENI HAMITAJ
+//! PLEASE GIVE THE REQUIRED CREDITS IF YOU USE ANY PART OF THIS PROGRAM
+
 namespace sudoku
 {
     class Program
