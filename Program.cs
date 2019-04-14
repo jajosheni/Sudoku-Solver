@@ -1,17 +1,16 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-//! AUTHOR : SHENI HAMITAJ
-//! PLEASE GIVE THE REQUIRED CREDITS IF YOU USE ANY PART OF THIS PROGRAM
+//AUTHOR : SHENI HAMITAJ
 
 namespace sudoku
 {
     class Program
     {
+        static int breakLoop = 0;
         static int[,] grid = new int [9,9];
         static int[] FirstPossible = new int[9];
         static int[] SecondPossible = new int[9];
@@ -546,7 +545,11 @@ namespace sudoku
             if(checkIfSolved()==1)
             {
                 chooseValue();
-                goto CHOICESELECTION;
+                breakLoop++;
+                if (breakLoop > 1000)
+                    Console.WriteLine("Couldn't Solve, breaking loop");
+                else
+                    goto CHOICESELECTION;
             }
 
             printSolution();
